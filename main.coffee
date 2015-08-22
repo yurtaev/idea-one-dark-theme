@@ -158,7 +158,7 @@ tmpl = """
     </option>
     <option name="COFFEESCRIPT.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="df6a73" />
+        <option name="FOREGROUND" value="#{hue_5}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREDOC_CONTENT">
@@ -173,7 +173,7 @@ tmpl = """
     </option>
     <option name="COFFEESCRIPT.HEREGEX_CONTENT">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="#{hue_6}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREGEX_ID">
@@ -186,7 +186,7 @@ tmpl = """
     </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
       <value>
-        <option name="FOREGROUND" value="50b6c3" />
+        <option name="FOREGROUND" value="#{hue_3}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">

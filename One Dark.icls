@@ -137,7 +137,7 @@
     </option>
     <option name="COFFEESCRIPT.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="df6a73" />
+        <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREDOC_CONTENT">
@@ -152,7 +152,7 @@
     </option>
     <option name="COFFEESCRIPT.HEREGEX_CONTENT">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREGEX_ID">
@@ -165,7 +165,7 @@
     </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
       <value>
-        <option name="FOREGROUND" value="50b6c3" />
+        <option name="FOREGROUND" value="c678dd" />
       </value>
     </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">

@@ -1,5 +1,14 @@
 THEME_NAME := "One Dark"
 THEME_FILENAME := $(THEME_NAME).icls
 
-build:
+build_jar: build_icls
+	mkdir colors
+	cp $(THEME_FILENAME) colors
+	cp $(THEME_FILENAME) colors/$(THEME_NAME).xml
+	touch "IntelliJ IDEA Global Settings"
+	jar cfM settings.jar "IntelliJ IDEA Global Settings" colors
+	rm -r colors
+	rm "IntelliJ IDEA Global Settings"
+
+build_icls:
 	coffee main.coffee > $(THEME_FILENAME)

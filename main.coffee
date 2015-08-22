@@ -1015,9 +1015,7 @@ tmpl = """
     </option>
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="e26b73" />
-        <option name="BACKGROUND" value="2b2b2b" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="#{hue_5}" />
       </value>
     </option>
     <option name="JSON.STRING">
@@ -2008,7 +2006,7 @@ tmpl = """
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="#{hue_6}" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
@@ -2042,8 +2040,7 @@ tmpl = """
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="e3e3ff" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="#{hue_5}" />
       </value>
     </option>
     <option name="YAML_COMMENT">

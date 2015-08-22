@@ -358,15 +358,11 @@ tmpl = """
     <option name="CSS.IMPORTANT">
       <value>
         <option name="FOREGROUND" value="c676df" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="c679dd" />
-        <option name="EFFECT_TYPE" value="1" />
+        <option name="FOREGROUND" value="#{hue_3}" />
       </value>
     </option>
     <option name="CSS.NUMBER">
@@ -382,13 +378,11 @@ tmpl = """
     <option name="CSS.PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="#{mono_1}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="d39a63" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.PSEUDO">
@@ -399,7 +393,6 @@ tmpl = """
     <option name="CSS.STRING">
       <value>
         <option name="FOREGROUND" value="#{hue_4}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.TAG_NAME">
@@ -1035,6 +1028,21 @@ tmpl = """
     <option name="LABEL">
       <value>
         <option name="FOREGROUND" value="c679dd" />
+      </value>
+    </option>
+    <option name="LESS_ID_SELECTOR">
+      <value>
+        <option name="FOREGROUND" value="#{hue_2}" />
+      </value>
+    </option>
+    <option name="LESS_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="#{hue_3}" />
+      </value>
+    </option>
+    <option name="LESS_OPERATORS">
+      <value>
+        <option name="FOREGROUND" value="#{mono_1}" />
       </value>
     </option>
     <option name="LESS_INJECTED_CODE">

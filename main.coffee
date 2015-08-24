@@ -267,44 +267,74 @@ tmpl = """
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="c7c7ff" />
+        <option name="FOREGROUND" value="#{hue_2}" />
+      </value>
+    </option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="#{hue_1}" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="6b8b8" />
+        <option name="FOREGROUND" value="#{hue_1}" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffb3b3" />
+        <option name="FOREGROUND" value="#{hue_5_2}" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="a7a7a7" />
+        <option name="FOREGROUND" value="#{mono_2}" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="68e868" />
+        <option name="FOREGROUND" value="#{hue_4}" />
+      </value>
+    </option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="#{hue_3}" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff2eff" />
+        <option name="FOREGROUND" value="#{hue_3}" />
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="#{mono_1}" />
+      </value>
+    </option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ff6767" />
+        <option name="FOREGROUND" value="#{hue_5}" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -318,9 +348,20 @@ tmpl = """
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="CONSOLE_WHITE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="abb2bf" />
+      </value>
+    </option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="#{hue_6}" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="754200" />
+        <option name="FOREGROUND" value="#{hue_6}" />
       </value>
     </option>
     <option name="CSS.COLON">

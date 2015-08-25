@@ -367,7 +367,6 @@ tmpl = """
     <option name="CSS.COLON">
       <value>
         <option name="FOREGROUND" value="#{mono_2}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CSS.COLOR">
@@ -460,25 +459,21 @@ tmpl = """
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="e3e3ff" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="71d7d7" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffc2c2" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES">
@@ -500,13 +495,11 @@ tmpl = """
     <option name="CUSTOM_STRING_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="#{hue_4}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="57b6c2" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="Clojure Atom">
@@ -615,7 +608,6 @@ tmpl = """
     <option name="DJANGO_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="c676df" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="DUPLICATE_FROM_SERVER">
@@ -645,14 +637,12 @@ tmpl = """
       <value>
         <option name="FOREGROUND" value="#{syntax_bg}" />
         <option name="BACKGROUND" value="#{hue_5_2}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="#{hue_3}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="#{hue_3}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -785,7 +775,6 @@ tmpl = """
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
         <option name="FOREGROUND" value="#{hue_4}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_COMMENT">
@@ -797,7 +786,6 @@ tmpl = """
     <option name="HTML_ENTITY_REFERENCE">
       <value>
         <option name="FOREGROUND" value="d2945d" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HTML_TAG">
@@ -806,13 +794,11 @@ tmpl = """
     <option name="HTML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="e26b73" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="#{hue_3}" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="#{hue_3}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -843,7 +829,6 @@ tmpl = """
     <option name="INSTANCE_FIELD_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="IVAR">
@@ -962,13 +947,11 @@ tmpl = """
     <option name="JS.GLOBAL_FUNCTION">
       <value>
         <option name="FOREGROUND" value="5aaef1" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="#{mono_1}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -979,7 +962,6 @@ tmpl = """
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
         <option name="FOREGROUND" value="#{mono_1}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
@@ -1051,7 +1033,6 @@ tmpl = """
     <option name="JSON.KEYWORD">
       <value>
         <option name="FOREGROUND" value="5aaef1" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="JSON.PROPERTY_KEY">
@@ -1401,7 +1382,6 @@ tmpl = """
     <option name="PY.CLASS_DEFINITION">
       <value>
         <option name="FOREGROUND" value="e5c17c" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.COMMA">
@@ -1431,7 +1411,6 @@ tmpl = """
     <option name="PY.KEYWORD">
       <value>
         <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.LINE_COMMENT">
@@ -1461,7 +1440,6 @@ tmpl = """
     <option name="PY.SELF_PARAMETER">
       <value>
         <option name="FOREGROUND" value="#{hue_5}" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.STRING">
@@ -1786,13 +1764,11 @@ tmpl = """
     <option name="SASS_PROPERTY_NAME">
       <value>
         <option name="FOREGROUND" value="d2945d" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="SASS_PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="68e868" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="SASS_STRING">
@@ -2076,7 +2052,6 @@ tmpl = """
     </option>
     <option name="XML_TAG_DATA">
       <value>
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="XML_TAG_NAME">

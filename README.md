@@ -13,13 +13,13 @@
 
 2. Restart IntelliJ IDEA
 
-3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new 
+3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new
 color themes.
 
 ### Option 2: Manual installation
 
 1.  Copy `One Dark.icls` to your IntelliJ IDEA preferences
-    color directory. The directory varies, depending on which JetBrains IDE you are using. 
+    color directory. The directory varies, depending on which JetBrains IDE you are using.
 
     *The colors directory may need to be created.*
 
@@ -32,12 +32,12 @@ color themes.
     * PyCharm `~/Library/Preferences/PyCharm{version}/colors`
 
     **Windows**
-    * IntelliJ IDEA `%USERPROFILE%\.IdeaIC{version}\config\colors` 
+    * IntelliJ IDEA `%USERPROFILE%\.IdeaIC{version}\config\colors`
     * PyCharm `%USERPROFILE%\.PyCharm{version}\config\colors`
 
 2. Restart IntelliJ IDEA
 
-3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new 
+3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new
 color themes.
 
 ## ToDo
@@ -52,7 +52,7 @@ color themes.
 - [x] JSON
 - [x] HTML
 - [x] XML
-- [ ] Java
+- [x] Java
 - [ ] Ruby
 - [ ] PHP
 - [ ] UI theme

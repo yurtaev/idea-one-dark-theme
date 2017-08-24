@@ -11,4 +11,4 @@ build_jar: build_icls
 	rm "IntelliJ IDEA Global Settings"
 
 build_icls:
-	coffee main.coffee > $(THEME_FILENAME)
+	node main.js > $(THEME_FILENAME)

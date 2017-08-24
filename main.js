@@ -1,48 +1,46 @@
-syntax_accent = '528bff'
-syntax_guide  = 'f2f3f5'
-syntax_fg     = 'abb2bf'
-syntax_bg     = '282c34'
-mono_1        = 'abb2bf'
-mono_2        = '828997'
-mono_3        = '5c6370'
-hue_1         = '56b6c2'
-hue_2         = '61afef'
-hue_3         = 'c678dd'
-hue_4         = '98c379'
-hue_5         = 'e06c75'
-hue_5_2       = 'be5046'
-hue_6         = 'd19a66'
-hue_6_2       = 'e5c07b'
+const syntax_accent = '528bff'
+const syntax_guide  = 'f2f3f5'
+const syntax_fg     = 'abb2bf'
+const syntax_bg     = '282c34'
+const mono_1        = 'abb2bf'
+const mono_2        = '828997'
+const mono_3        = '5c6370'
+const hue_1         = '56b6c2'
+const hue_2         = '61afef'
+const hue_3         = 'c678dd'
+const hue_4         = '98c379'
+const hue_5         = 'e06c75'
+const hue_5_2       = 'be5046'
+const hue_6         = 'd19a66'
+const hue_6_2       = 'e5c07b'
 
-syntax_cursor_line = '99BBFF'
-caret_row_color = '2C323B'
+const syntax_cursor_line = '99BBFF'
+const caret_row_color = '2C323B'
 
-
-tmpl = """
-<scheme name="One dark" version="1" parent_scheme="Darcula">
+tmpl = `<scheme name="One dark" version="1" parent_scheme="Darcula">
   <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="14" />
   <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="#{hue_4}" />
-    <option name="DELETED_LINES_COLOR" value="#{hue_5}" />
-    <option name="MODIFIED_LINES_COLOR" value="#{hue_6}" />
-    <option name="CARET_COLOR" value="#{syntax_accent}" />
-    <option name="CARET_ROW_COLOR" value="#{caret_row_color}" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="#{syntax_bg}" />
-    <option name="GUTTER_BACKGROUND" value="#{syntax_bg}" />
+    <option name="ADDED_LINES_COLOR" value="${hue_4}" />
+    <option name="DELETED_LINES_COLOR" value="${hue_5}" />
+    <option name="MODIFIED_LINES_COLOR" value="${hue_6}" />
+    <option name="CARET_COLOR" value="${syntax_accent}" />
+    <option name="CARET_ROW_COLOR" value="${caret_row_color}" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="${syntax_bg}" />
+    <option name="GUTTER_BACKGROUND" value="${syntax_bg}" />
     <option name="INDENT_GUIDE" value="747369" />
-    <option name="LINE_NUMBERS_COLOR" value="#{mono_3}" />
+    <option name="LINE_NUMBERS_COLOR" value="${mono_3}" />
     <option name="SELECTED_INDENT_GUIDE" value="747369" />
-    <option name="SELECTION_BACKGROUND" value="#{syntax_fg}" />
-    <option name="SELECTION_FOREGROUND" value="#{syntax_bg}" />
-    <option name="WHITESPACES" value="#{mono_3}" />
-    <option name="RIGHT_MARGIN_COLOR" value="#{mono_3}" />
+    <option name="SELECTION_BACKGROUND" value="${syntax_fg}" />
+    <option name="SELECTION_FOREGROUND" value="${syntax_bg}" />
+    <option name="WHITESPACES" value="${mono_3}" />
+    <option name="RIGHT_MARGIN_COLOR" value="${mono_3}" />
   </colors>
   <attributes>
     <option name="APACHE_CONFIG.ARG_LEXEM">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="APACHE_CONFIG.COMMENT">
@@ -89,7 +87,7 @@ tmpl = """
     </option>
     <option name="BUILDOUT.VALUE">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="CLASS_REFERENCE">
@@ -153,27 +151,27 @@ tmpl = """
     </option>
     <option name="COFFEESCRIPT.FUNCTION_NAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREDOC_CONTENT">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREDOC_ID">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREGEX_CONTENT">
       <value>
-        <option name="FOREGROUND" value="#{hue_6}" />
+        <option name="FOREGROUND" value="${hue_6}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.HEREGEX_ID">
@@ -186,12 +184,12 @@ tmpl = """
     </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.JAVASCRIPT_ID">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.KEYWORD">
@@ -225,7 +223,7 @@ tmpl = """
     </option>
     <option name="COFFEESCRIPT.PROTOTYPE">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.REGULAR_EXPRESSION_CONTENT">
@@ -248,12 +246,12 @@ tmpl = """
     </option>
     <option name="COFFEESCRIPT.STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.STRING_LITERAL">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.THIS">
@@ -269,72 +267,72 @@ tmpl = """
     </option>
     <option name="CONSOLE_BLUE_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_BLUE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_1}" />
+        <option name="FOREGROUND" value="${hue_1}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_CYAN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_1}" />
+        <option name="FOREGROUND" value="${hue_1}" />
       </value>
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_5_2}" />
+        <option name="FOREGROUND" value="${hue_5_2}" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{mono_2}" />
+        <option name="FOREGROUND" value="${mono_2}" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_GREEN_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_MAGENTA_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
       </value>
     </option>
     <option name="CONSOLE_NORMAL_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -355,18 +353,18 @@ tmpl = """
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_6}" />
+        <option name="FOREGROUND" value="${hue_6}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="#{hue_6}" />
+        <option name="FOREGROUND" value="${hue_6}" />
       </value>
     </option>
     <option name="CSS.COLON">
       <value>
-        <option name="FOREGROUND" value="#{mono_2}" />
+        <option name="FOREGROUND" value="${mono_2}" />
       </value>
     </option>
     <option name="CSS.COLOR">
@@ -402,7 +400,7 @@ tmpl = """
     </option>
     <option name="CSS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
       </value>
     </option>
     <option name="CSS.NUMBER">
@@ -417,7 +415,7 @@ tmpl = """
     </option>
     <option name="CSS.PROPERTY_NAME">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="CSS.PROPERTY_VALUE">
@@ -432,7 +430,7 @@ tmpl = """
     </option>
     <option name="CSS.STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="CSS.TAG_NAME">
@@ -447,7 +445,7 @@ tmpl = """
     </option>
     <option name="CSS.URL">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
@@ -494,7 +492,7 @@ tmpl = """
     </option>
     <option name="CUSTOM_STRING_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="CUSTOM_VALID_STRING_ESCAPE_ATTRIBUTES">
@@ -509,7 +507,7 @@ tmpl = """
     </option>
     <option name="Clojure Character">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="Clojure Keyword">
@@ -536,7 +534,7 @@ tmpl = """
     </option>
     <option name="Clojure Strings">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
@@ -602,7 +600,7 @@ tmpl = """
     </option>
     <option name="DJANGO_STRING_LITERAL">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="DJANGO_TAG_NAME">
@@ -617,7 +615,7 @@ tmpl = """
     </option>
     <option name="ENUM_CONST">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="ERRORS_ATTRIBUTES">
@@ -635,15 +633,15 @@ tmpl = """
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="#{syntax_bg}" />
-        <option name="BACKGROUND" value="#{hue_5_2}" />
+        <option name="FOREGROUND" value="${syntax_bg}" />
+        <option name="BACKGROUND" value="${hue_5_2}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
-        <option name="EFFECT_COLOR" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
+        <option name="EFFECT_COLOR" value="${hue_3}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -678,12 +676,12 @@ tmpl = """
     </option>
     <option name="GHERKIN_PYSTRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="GHERKIN_REGEXP_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="GHERKIN_TABLE_HEADER_CELL">
@@ -718,7 +716,7 @@ tmpl = """
     </option>
     <option name="GQL_STRING_LITERAL">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="HAML_CLASS">
@@ -745,12 +743,12 @@ tmpl = """
     </option>
     <option name="HAML_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="HAML_STRING_INTERPOLATED">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="HAML_TAG">
@@ -774,7 +772,7 @@ tmpl = """
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="HTML_COMMENT">
@@ -798,8 +796,8 @@ tmpl = """
     </option>
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
-        <option name="EFFECT_COLOR" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
+        <option name="EFFECT_COLOR" value="${hue_3}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -895,7 +893,7 @@ tmpl = """
     </option>
     <option name="JAVA_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
@@ -951,7 +949,7 @@ tmpl = """
     </option>
     <option name="JS.GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="JS.INSTANCE_MEMBER_FUNCTION">
@@ -961,7 +959,7 @@ tmpl = """
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
@@ -983,7 +981,7 @@ tmpl = """
     </option>
     <option name="JS.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="JS.NUMBER">
@@ -1022,7 +1020,7 @@ tmpl = """
     </option>
     <option name="JS.STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
@@ -1037,7 +1035,7 @@ tmpl = """
     </option>
     <option name="JSON.PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="JSON.STRING">
@@ -1052,17 +1050,17 @@ tmpl = """
     </option>
     <option name="LESS_ID_SELECTOR">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="LESS_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
       </value>
     </option>
     <option name="LESS_OPERATORS">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="LESS_INJECTED_CODE">
@@ -1109,12 +1107,12 @@ tmpl = """
     </option>
     <option name="LOCALE.STRING_LITERAL">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="MACRONAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
@@ -1124,7 +1122,7 @@ tmpl = """
     </option>
     <option name="MESSAGE_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
@@ -1155,7 +1153,7 @@ tmpl = """
     </option>
     <option name="OC.FUNCTION">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="OC.GLOBAL_VARIABLE">
@@ -1201,17 +1199,17 @@ tmpl = """
     </option>
     <option name="OC.STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="OC.STRUCT_FIELD">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="OC_FORMAT_TOKEN">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="PHP_BAD_CHARACTER">
@@ -1248,12 +1246,12 @@ tmpl = """
     </option>
     <option name="PHP_EXEC_COMMAND_ID">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="PHP_HEREDOC_CONTENT">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="PHP_HEREDOC_ID">
@@ -1288,7 +1286,7 @@ tmpl = """
     </option>
     <option name="PHP_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="PHP_TAG">
@@ -1358,12 +1356,12 @@ tmpl = """
     </option>
     <option name="PUPPET_SQ_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="PUPPET_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="PUPPET_VARIABLE">
@@ -1371,7 +1369,7 @@ tmpl = """
     </option>
     <option name="PUPPET_VARIABLE_INTERPOLATION">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME">
@@ -1389,7 +1387,7 @@ tmpl = """
     </option>
     <option name="PY.DECORATOR">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="PY.DOC_COMMENT">
@@ -1399,7 +1397,7 @@ tmpl = """
     </option>
     <option name="PY.FUNC_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="PY.INVALID_STRING_ESCAPE">
@@ -1426,7 +1424,7 @@ tmpl = """
     </option>
     <option name="PY.PARAMETER">
       <value>
-        <option name="FOREGROUND" value="#{hue_6}" />
+        <option name="FOREGROUND" value="${hue_6}" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
@@ -1434,17 +1432,17 @@ tmpl = """
     </option>
     <option name="PY.PREDEFINED_USAGE">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="PY.SELF_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="PY.STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="PY.VALID_STRING_ESCAPE">
@@ -1539,7 +1537,7 @@ tmpl = """
     </option>
     <option name="REST.REF.NAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="REST.SECTION.HEADER">
@@ -1606,7 +1604,7 @@ tmpl = """
     </option>
     <option name="RUBY_EXPR_IN_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_GVAR">
@@ -1621,12 +1619,12 @@ tmpl = """
     </option>
     <option name="RUBY_HEREDOC_CONTENT">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_HEREDOC_ID">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_IDENTIFIER">
@@ -1636,7 +1634,7 @@ tmpl = """
     </option>
     <option name="RUBY_INTERPOLATED_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_INVALID_ESCAPE_SEQUENCE">
@@ -1667,7 +1665,7 @@ tmpl = """
     </option>
     <option name="RUBY_METHOD_NAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="RUBY_NUMBER">
@@ -1702,17 +1700,17 @@ tmpl = """
     </option>
     <option name="RUBY_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_WORDS">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="SASS_COMMENT">
@@ -1773,7 +1771,7 @@ tmpl = """
     </option>
     <option name="SASS_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="SASS_TAG_NAME">
@@ -1830,12 +1828,12 @@ tmpl = """
     </option>
     <option name="SLIM_INTERPOLATION">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="SLIM_STRING_INTERPOLATED">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="SLIM_TAG">
@@ -1881,7 +1879,7 @@ tmpl = """
     </option>
     <option name="SMARTY_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="SQL_BAD_CHARACTER">
@@ -1918,7 +1916,7 @@ tmpl = """
     </option>
     <option name="SQL_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="SQL_SYNTETIC_ENTITY">
@@ -1939,8 +1937,8 @@ tmpl = """
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="#{syntax_fg}" />
-        <option name="BACKGROUND" value="#{syntax_bg}" />
+        <option name="FOREGROUND" value="${syntax_fg}" />
+        <option name="BACKGROUND" value="${syntax_bg}" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -1989,7 +1987,7 @@ tmpl = """
     </option>
     <option name="TWIG_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="TYPEDEF">
@@ -2023,12 +2021,12 @@ tmpl = """
     </option>
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_6}" />
+        <option name="FOREGROUND" value="${hue_6}" />
       </value>
     </option>
     <option name="XML_ATTRIBUTE_VALUE">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="XML_COMMENT">
@@ -2056,7 +2054,7 @@ tmpl = """
     </option>
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="YAML_COMMENT">
@@ -2067,7 +2065,7 @@ tmpl = """
     </option>
     <option name="YAML_SCALAR_DSTRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="YAML_SCALAR_KEY">
@@ -2077,17 +2075,17 @@ tmpl = """
     </option>
     <option name="YAML_SCALAR_LIST">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="YAML_SCALAR_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="YAML_SCALAR_VALUE">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="YAML_SIGN">
@@ -2097,57 +2095,57 @@ tmpl = """
     </option>
     <option name="YAML_TEXT">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="TS.CLASS">
       <value>
-        <option name="FOREGROUND" value="#{hue_6_2}" />
+        <option name="FOREGROUND" value="${hue_6_2}" />
       </value>
     </option>
     <option name="TS.GLOBAL_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="#{hue_1}" />
+        <option name="FOREGROUND" value="${hue_1}" />
       </value>
     </option>
     <option name="TS.INSTANCE_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="TS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="TS.INTERFACE">
       <value>
-        <option name="FOREGROUND" value="#{hue_6_2}" />
+        <option name="FOREGROUND" value="${hue_6_2}" />
       </value>
     </option>
     <option name="TS.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
       </value>
     </option>
     <option name="TS.MODULE_NAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_6_2}" />
+        <option name="FOREGROUND" value="${hue_6_2}" />
       </value>
     </option>
     <option name="TS.STATIC_MEMBER_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="TS.STATIC_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="RUBY_COMMENT">
       <value>
-        <option name="FOREGROUND" value="#{mono_3}" />
+        <option name="FOREGROUND" value="${mono_3}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2158,7 +2156,7 @@ tmpl = """
     </option>
     <option name="RUBY_CONSTANT_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="#{hue_6}" />
+        <option name="FOREGROUND" value="${hue_6}" />
       </value>
     </option>
     <option name="RUBY_CVAR">
@@ -2173,7 +2171,7 @@ tmpl = """
     </option>
     <option name="RUBY_EXPR_IN_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_5_2}" />
+        <option name="FOREGROUND" value="${hue_5_2}" />
       </value>
     </option>
     <option name="RUBY_GVAR">
@@ -2188,12 +2186,12 @@ tmpl = """
     </option>
     <option name="RUBY_HEREDOC_CONTENT">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_HEREDOC_ID">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_IDENTIFIER">
@@ -2201,7 +2199,7 @@ tmpl = """
     </option>
     <option name="RUBY_INTERPOLATED_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_INVALID_ESCAPE_SEQUENCE">
@@ -2217,7 +2215,7 @@ tmpl = """
     </option>
     <option name="RUBY_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="#{hue_3}" />
+        <option name="FOREGROUND" value="${hue_3}" />
       </value>
     </option>
     <option name="RUBY_LINE_CONTINUATION">
@@ -2227,17 +2225,17 @@ tmpl = """
     </option>
     <option name="RUBY_LOCAL_VAR_ID">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="RUBY_METHOD_NAME">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="RUBY_NTH_REF">
       <value>
-        <option name="FOREGROUND" value="#{hue_5}" />
+        <option name="FOREGROUND" value="${hue_5}" />
       </value>
     </option>
     <option name="RUBY_NUMBER">
@@ -2252,12 +2250,12 @@ tmpl = """
     </option>
     <option name="RUBY_PARAMDEF_CALL">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="RUBY_PARAMETER_ID">
       <value>
-        <option name="FOREGROUND" value="#{mono_1}" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="RUBY_REGEXP">
@@ -2267,27 +2265,26 @@ tmpl = """
     </option>
     <option name="RUBY_SPECIFIC_CALL">
       <value>
-        <option name="FOREGROUND" value="#{hue_2}" />
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="RUBY_STRING">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
     <option name="RUBY_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="#{hue_1}" />
+        <option name="FOREGROUND" value="${hue_1}" />
       </value>
     </option>
     <option name="RUBY_WORDS">
       <value>
-        <option name="FOREGROUND" value="#{hue_4}" />
+        <option name="FOREGROUND" value="${hue_4}" />
       </value>
     </option>
   </attributes>
-</scheme>
-"""
+</scheme>`
 
 
-console.log tmpl
+console.log(tmpl)

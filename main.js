@@ -348,7 +348,7 @@ tmpl = `<scheme name="One dark" version="1" parent_scheme="Darcula">
     </option>
     <option name="CONSOLE_WHITE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="abb2bf" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT">
@@ -1889,8 +1889,7 @@ tmpl = `<scheme name="One dark" version="1" parent_scheme="Darcula">
     </option>
     <option name="SQL_COLUMN">
       <value>
-        <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="${mono_1}" />
       </value>
     </option>
     <option name="SQL_COMMENT">
@@ -1911,7 +1910,13 @@ tmpl = `<scheme name="One dark" version="1" parent_scheme="Darcula">
     </option>
     <option name="SQL_PROCEDURE">
       <value>
+        <option name="FOREGROUND" value="${hue_2}" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SQL_SCHEMA">
+      <value>
+        <option name="FOREGROUND" value="${hue_2}" />
       </value>
     </option>
     <option name="SQL_STRING">
@@ -1922,6 +1927,11 @@ tmpl = `<scheme name="One dark" version="1" parent_scheme="Darcula">
     <option name="SQL_SYNTETIC_ENTITY">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
+      </value>
+    </option>
+    <option name="SQL_TABLE">
+      <value>
+        <option name="FOREGROUND" value="${hue_6}" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">

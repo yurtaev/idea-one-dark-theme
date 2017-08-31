@@ -1870,8 +1870,7 @@
     </option>
     <option name="SQL_COLUMN">
       <value>
-        <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
     <option name="SQL_COMMENT">
@@ -1892,7 +1891,13 @@
     </option>
     <option name="SQL_PROCEDURE">
       <value>
+        <option name="FOREGROUND" value="61afef" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="SQL_SCHEMA">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
     <option name="SQL_STRING">
@@ -1903,6 +1908,11 @@
     <option name="SQL_SYNTETIC_ENTITY">
       <value>
         <option name="FOREGROUND" value="fda5ff" />
+      </value>
+    </option>
+    <option name="SQL_TABLE">
+      <value>
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">

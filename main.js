@@ -2311,7 +2311,7 @@ tmpl = `<scheme name="One dark" version="1" parent_scheme="Darcula">
     </option>
     <option name="GO_BUILTIN_FUNCTION">
       <value>
-        <option name="FOREGROUND" value="268bd2" />
+        <option name="FOREGROUND" value="57b6c2" />
       </value>
     </option>
     <option name="GO_BUILTIN_FUNCTION_CALL">

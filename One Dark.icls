@@ -2274,5 +2274,155 @@
         <option name="FOREGROUND" value="98c379" />
       </value>
     </option>
+    <option name="GO_BRACES">
+      <value>
+        <option name="FOREGROUND" value="aeb6c0" />
+      </value>
+    </option>
+    <option name="GO_BRACKET">
+      <value>
+        <option name="FOREGROUND" value="aeb6c0" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="d2945d" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="268bd2" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="57b6c2" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_TYPE">
+      <value>
+        <option name="FOREGROUND" value="c679dd" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="c679dd" />
+      </value>
+    </option>
+    <option name="GO_BUILTIN_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="d2945d" />
+      </value>
+    </option>
+    <option name="GO_COMMA">
+      <value>
+        <option name="FOREGROUND" value="aeb6c0" />
+      </value>
+    </option>
+    <option name="GO_EXPORTED_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="GO_EXPORTED_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="57b6c2" />
+      </value>
+    </option>
+    <option name="GO_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="c679dd" />
+      </value>
+    </option>
+    <option name="GO_LOCAL_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="GO_LOCAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="61afef" />
+      </value>
+    </option>
+    <option name="GO_LOCAL_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="57b6c2" />
+      </value>
+    </option>
+    <option name="GO_LOCAL_VARIABLE_CALL">
+      <value>
+        <option name="FOREGROUND" value="57b6c2" />
+      </value>
+    </option>
+    <option name="GO_METHOD_RECEIVER">
+      <value>
+        <option name="FOREGROUND" value="aeb6c0" />
+      </value>
+    </option>
+    <option name="GO_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="d2945d" />
+      </value>
+    </option>
+    <option name="GO_OPERATOR">
+      <value>
+        <option name="FOREGROUND" value="c679dd" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE_EXPORTED_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE_EXPORTED_VARIABLE_CALL">
+      <value>
+        <option name="FOREGROUND" value="57b6c2" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE_LOCAL_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="GO_PACKAGE_LOCAL_VARIABLE_CALL">
+      <value>
+        <option name="FOREGROUND" value="57b6c2" />
+      </value>
+    </option>
+    <option name="GO_SCOPE_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="aeb6c0" />
+      </value>
+    </option>
+    <option name="GO_SEMICOLON">
+      <value>
+        <option name="FOREGROUND" value="aeb6c0" />
+      </value>
+    </option>
+    <option name="GO_STRING">
+      <value>
+        <option name="FOREGROUND" value="98c379" />
+      </value>
+    </option>
+    <option name="GO_STRUCT_EXPORTED_MEMBER_CALL">
+      <value>
+        <option name="FOREGROUND" value="57b6c2" />
+      </value>
+    </option>
+    <option name="GO_STRUCT_LOCAL_MEMBER_CALL">
+      <value>
+        <option name="FOREGROUND" value="57b6c2" />
+      </value>
+    </option>
+    <option name="GO_TYPE_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="aeb6c0" />
+      </value>
+    </option>
   </attributes>
 </scheme>

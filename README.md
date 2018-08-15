@@ -52,6 +52,7 @@ color themes.
 - [x] JSON
 - [x] HTML
 - [x] XML
+- [x] Golang
 - [ ] Java
 - [ ] Ruby
 - [ ] PHP

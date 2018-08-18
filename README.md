@@ -57,3 +57,9 @@ color themes.
 - [ ] Ruby
 - [ ] PHP
 - [ ] UI theme
+
+---
+
+## Thanks
+
+- [Wali Akande](https://github.com/eskadah)

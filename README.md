@@ -43,7 +43,7 @@ color themes.
 ## ToDo
 
 - [x] Python
-- [x] Django/Jinja2 tempalte
+- [x] Django/Jinja2 template
 - [x] CoffeeScipt
 - [x] JavaScript
 - [x] CSS

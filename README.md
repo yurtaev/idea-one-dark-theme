@@ -1,3 +1,7 @@
+# DEPRECATED
+
+Please try to use https://plugins.jetbrains.com/plugin/11938-one-dark-theme/
+
 # One Dark PyCharm theme
 
 [One Dark](https://github.com/atom/one-dark-syntax) theme for IntelliJ IDEA, PhpStorm, PyCharm, RubyMine, WebStorm
